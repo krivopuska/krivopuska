@@ -1,0 +1,25 @@
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+92 - false
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+apple
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const multiply = (a, b) => a * b;
+true / 84,24,64,88,59,46,42,26,8,95,64,29,2,7,33,6,79,39,25,53,80,43,95,29,92,53,94,24,59,30,71,4,56,42
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+38 + grape
+const getUniqueValues = array => [...new Set(array)];
+kiwi
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
