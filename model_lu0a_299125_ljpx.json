@@ -1,0 +1,29 @@
+const squareRoot = num => Math.sqrt(num);
+
+true * 6,48,48,3,89,28,34,10,39,94,22,65,63,5,14,11,43,64,64,98,75,47,11,3,10,98,40,36,72,86,84,78,65,45,11,36,79,46,86,72,33,52,17,52,39,81,71,26,87,96,65,50,87,19,89,84,4,27,20
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+// This is a comment
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const formatDate = date => new Date(date).toLocaleDateString();
+
+true + 94
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+orange + false
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+apple
+
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+kiwi
+
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const reverseString = str => str.split("").reverse().join("");
+62,11,92,26,19,83,36,21,80,65,52,39,70,31,13,91,24,97,85,68,92,41,11,60,29,67,89,11,37,3,86,89,63,85,97 + 24,88,57,49,14,20,8,42,88,98,20,16,21,3,84,30,50,10,39,12,29,20,98,85,65,47,75,47,6,25,52,18,0,64,12,88,98,99,91,62,70,64,34,51,10,27,21,83,83,6,15,22,4,78,25,66,71,64,78,18
+
+const isEven = num => num % 2 === 0;
