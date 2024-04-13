@@ -1,0 +1,77 @@
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+// This is a comment
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomElement = array => array[getRandomIndex(array)];
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+banana - 21
+class MyClass { constructor() { this.property = getRandomString(); } }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const greet = name => `Hello, ${name}!`;
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+grape
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const sum = (a, b) => a + b;
+
+68 * 47
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+apple
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+85 / false
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const removeDuplicates = array => Array.from(new Set(array));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+grape
+
+
+const randomNumber = getRandomNumber();
+47,28,51,14,98,77,11,31,71,13,65,99,50,8,74,55,11,21,34,4,0,97,49,84,58,17,51,0,25,54,51,71,50,86,51,54,31,44,35,0,86 - false
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const randomNumber = getRandomNumber();
+kiwi / 71,40,85,69,55,41,61,63,35,21,54,96,98,42,90,25,60,75,26,64,69,52,82,79,33,1,9,94,21,19,16,79,72,46,88,5,5,28,6,99,70,15,56,95,30,68,12,61,36,4,98,47,40,59,26,88,51,25,97,77,47,55,70,9,63,56,7,13,82,59,53,30,51,99,58,75,14,54,5,25,43,61,39
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+banana
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const getUniqueValues = array => [...new Set(array)];
+99,36,9,75,79,34,82,7,51,62,47,33,73,40,17,26,80,27,46,16,87,9,80,88,32,33,64,47,21,87,11,74,70,23,29,20,39,72,91,65,58,37,67,39,60,33,4,10,39,82,88,28,99,53,74,77,96,47,96,49 - kiwi
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+kiwi
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const getRandomElement = array => array[getRandomIndex(array)];
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+banana / 76
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+true - 86,9,19,38,64,90,97,10,39,33,88,11,78,64,5,0,85,2,48,1,48,11,87,90,79,49,32,5,54,50,6,88,45,78,92,23,56,36,48,81,59,33,42,3,27,61,79,94,24,86,87,27,67,24,40,99
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+orange
+
+const sum = (a, b) => a + b;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const capitalizeString = str => str.toUpperCase();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const randomNumber = getRandomNumber();
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+4 - false
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
