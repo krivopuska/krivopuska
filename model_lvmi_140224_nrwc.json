@@ -1,0 +1,55 @@
+const findLargestNumber = numbers => Math.max(...numbers);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+banana
+
+
+// This is a comment
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+false / 31,7,2,13,94,27,87,16,9,14,95,91,42,68,36,2,2,75,40,12,45,0,32,78,90
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+82,30,96,87,22,52,47,43,58,44,79,61,46,85,1,8,22,48,4,36,51,29,56,1,27,19,1,54,0,41,72,14,96,88,77,17,45,65,81,38,67,48,66,71,40,54,79,14,95,47,15,73,67,86,65,53,98,85,99,87,75,76,38 / true
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+5 - apple
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+true + true
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const sum = (a, b) => a + b;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+console.log(getRandomString());
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+banana * 41
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+43 + true
+const greet = name => `Hello, ${name}!`;
+75,5,61,41,39,43,8,60,73,93,65,77,30,10,51,29,14,67,27,93 * 41
+const isEven = num => num % 2 === 0;
+const findLargestNumber = numbers => Math.max(...numbers);
+59 + true
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+38 + kiwi
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+79,52,85,26,89,6,81,49,27,35,72,68,27,42,82,33,80,16,45,51,9,2,18,59,15,60,48,84,35,37,88,63,42,44,63,35,60,23,26,78,64,61,53,75,96,6,43,10,12,41,82,24,63,77,23,60,1,7,95,47,75,94,0,86,87,4,58,29,4,21,0,55,0,73,11,66,81,31,98,92,88,15 + orange
+const getUniqueValues = array => [...new Set(array)];
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+kiwi
+
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
