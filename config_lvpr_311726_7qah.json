@@ -1,0 +1,6 @@
+const findSmallestNumber = numbers => Math.min(...numbers);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+orange / 56,4,74,16,90,43,92,90,15,47,32,71,8,10,13,73,48,35,54,60,98,31
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const findLargestNumber = numbers => Math.max(...numbers);
